@@ -1,0 +1,44 @@
+.body {
+	font-size: 100%;
+}
+
+.chat-name,
+.chat-messages,
+.chat-status,
+.chat-app textarea {
+	font-size: 1em;
+	padding: 5px;
+	margin:0px;
+}
+
+.chat-app {
+	width: 300px;
+}
+
+.chat-name,
+.chat-app textarea {
+	outline: none;
+	width: 100%;
+	border: 1px solid #bbb;
+}
+
+.chat-messages {
+	height: 300px;
+	width: 100%;
+	border: 1px solid #bbb;
+}
+
+.chat-app textarea {
+	max-width: 300px;
+	border-top:none;
+}
+
+.chat-status {
+	font-size: 0.9em;
+	color: #bbb
+}
+
+.chat-name {
+	border-bottom: none;
+}
+
